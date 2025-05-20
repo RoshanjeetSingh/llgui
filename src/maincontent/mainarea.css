@@ -1,0 +1,42 @@
+.wlcmcontainer{
+    display: flex;
+    justify-content: center;
+}
+.wlcm{
+    height: 30px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh 3vw;
+    background-color: #FBDB93;
+    margin-top: 4px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+.wlcm p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.wlcm h2{
+    color: rgb(188, 207, 224);
+    background-color: rgb(44, 83, 83);
+    cursor: pointer;
+    overflow: hidden;
+}
+.wlcmcontainer2nd{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10vh;
+    line-height: 2em
+}
+
+.wlcmcontainer2nd h2{
+    width: 80%;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+.wlcmcontainer2nd h2 strong{
+    color: white;
+    background-color: rgb(216, 99, 90);
+}

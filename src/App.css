@@ -1,0 +1,8 @@
+#sidebar{
+    margin-top: 10vh;
+}
+@media(min-width:200px) and (max-width:749px){
+    #sidebar{
+        flex-direction: column;
+    }
+}
