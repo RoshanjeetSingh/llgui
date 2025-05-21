@@ -6,6 +6,7 @@ import { FaShare } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import './header.css'
 import ResponciveNav from './responcivenav'
+import { NavLink } from "react-router-dom";
 function WebHeader(){
     return(
         <div>
@@ -29,12 +30,12 @@ function WebHeader(){
       
       <nav>
         <ul className="navbar">
-            <li className="navbtn">home</li>
-            <li className="navbtn">village map</li>
-            <li className="navbtn">guest book</li>
-            <li className="navbtn">gallary</li>
-            <li className="navbtn">videos</li>
-            <li className="navbtn">submit news</li>
+            <li className="navbtn"> <NavLink to={'/'}>home</NavLink> </li>
+            <li className="navbtn"> <NavLink to={'/villages'} >village map</NavLink>  </li>
+            <li className="navbtn">  <NavLink to={'/guestbook'}>guest book </NavLink></li>
+            <li className="navbtn"> <NavLink to={'/gallary'}> gallary</NavLink></li>
+            <li className="navbtn">  <NavLink to={'/videos'}>videos </NavLink> </li>
+            <li className="navbtn">  <NavLink to={'/news'}>submit news </NavLink></li>
         </ul>
       </nav>
     <ResponciveNav />
