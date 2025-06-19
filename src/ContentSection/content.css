@@ -1,0 +1,56 @@
+.Content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    width: 80vw;
+    gap: 2rem;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border: 1px solid rgb(133, 117, 117);
+    border-radius: 10px;
+  }
+  
+  .content-section.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .content-image img {
+  
+    width: 10em;                         
+    max-width: auto;         
+    object-fit: cover;       
+    border-radius: 9px; 
+    padding: 3px 0px 0px 0px;
+    }
+  
+  .content-text {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .content-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .content-text p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+
+  .responsive-image {
+    width: 100%;             
+    height: auto;            
+    max-width: 100%;         
+    object-fit: cover;       
+    border-radius: 8px;      
+  }
+  

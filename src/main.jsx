@@ -1,5 +1,6 @@
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
+import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import { RouterProvider,createBrowserRouter } from 'react-router-dom'
 import HomePage from './maincontent/mainarea.jsx'
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
     children:[
         { path:'',element:<HomePage/>,
             children:[
-                {path:'/',element:<h1>my village</h1>},
+                {path:'/',element:<h1 className='sideg1'>my village</h1>},
                 {path:'aboutpeople',element:<AboutPeople/>},
                 {path:'sports',element:<Sports/>},
                 {path:'history',element:<History/>}

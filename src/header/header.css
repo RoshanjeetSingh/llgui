@@ -4,7 +4,7 @@
 }
 /* header for website */
 header{
-    background-color: #FBF8EF;
+    background-color: #1F3B4D;
     display: flex;
     height: 7em;
     width: 100%;
@@ -12,15 +12,16 @@ header{
     box-shadow: 3px 3px 3px ;
 }
 .llglogo{   
-    /* border: 2px solid black; */
+    /* border: 2px solid rgb(250, 249, 249); */
     /* display: flex; */
-    height: 80px;
-    width: fit-content;
+    height: 160px;
+    width: auto;
+    object-fit: contain;
     padding: 5px;
     margin-left: 0.3em;
     position: relative;
     left: 0px;
-    top: 1.5vh;
+    top: -5vh;
 }
 /* advertise website */
 .sharebtnscontainor{
@@ -39,13 +40,13 @@ header{
     gap: 1em;
     list-style: none;
     height: 1.1em;
-    color: rgb(153, 121, 121);
+    color: #fffbfb;
 }
 h4{
-    color: rgb(77, 114, 114);
+    color: rgb(179, 236, 236);
 }
 .sharebtns li{
-    background: #D2D0A0;
+    background: #0a84ff00;
     border: none;
     border-radius: 0.3em;
     box-shadow: 3px 3px 5px 1px #3d2e2e;
@@ -57,7 +58,7 @@ h4{
     position: absolute;
     right: 2vw;
     top: 2vh;
-    border: 1px solid rgba(0, 0, 0, 0.918);
+    border: 1px solid rgba(165, 156, 156, 0.918);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -76,6 +77,7 @@ border: none;
     right: 0.5em;
     top: 0.1em;
     z-index: 2;
+    color: #cbeeec;
 }
 nav{
     position: absolute;
@@ -90,7 +92,7 @@ nav{
 }
 .navbtn{
     cursor: pointer;
-    background-color: rgb(136, 103, 80);
+    background-color: transparent;
     height: 30px;
     border: none;
     border-radius: 2px;
@@ -103,26 +105,30 @@ nav{
     justify-content: center;
     box-shadow: 2px 2px 5px;
 }
+.lin{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .navbtn:hover{
     scale: 1.1;
 }
 .navbar :nth-child(1){
-    background-color: #90D1CA;
+    background-color: transparent;
    }
 .navbar :nth-child(2){
- background-color: #129990;
+ background-color: transparent;
 }
 .navbar :nth-child(3){
-    background-color: #4ED7F1;
+    background-color: transparent;
  }
 .navbar :nth-child(4){
-    background-color: #6FE6FC;
+    background-color: transparent;
 }
 .navbar :nth-child(5){
-    background-color: #6FE6FC;
+    background-color: transparent;
 }
 .navbar :nth-child(6){
-    background-color: #FFFA8D;
+    background-color: transparent;
 }
 /* make navbar & header respooncive */
 @media (max-width:842px) {
@@ -153,7 +159,7 @@ nav{
 @media(min-width:200px) and (max-width:841px){
 .responcivenav{
     display: flex;
-    background-color: rgb(226, 166, 76);
+    background-color: rgb(163, 107, 50);
 }
     a{
         text-decoration: none;
@@ -188,8 +194,8 @@ nav{
         width: 2.5em;
         height: 0.4em;
         border-radius: 1em;
-        background-color: rgba(245, 200, 149, 0.884);
-        box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.712) ; 
+        background-color: #00a2ffe1;
+        box-shadow: 0px 1px 2px rgba(7, 240, 240, 0.712) ; 
     }
     /* animation for showing list */
     .burgerbar.clicked:nth-child(1){
@@ -211,7 +217,7 @@ nav{
     }
     /* navbar items */
     .navlist{
-        background-color: #4ED7F1;
+        background-color: #5fc9df;
         position: absolute;
         top: 2em;
         right: 0px;
@@ -228,7 +234,7 @@ nav{
         text-transform: uppercase;
         padding: 0.5em 0.795em;
         display: inline-block;
-        color: rgba(31, 77, 83, 0.829);
+        color: #1f4d53d3;
         font-weight: bold;
         font-size: 1.1em;
     }
@@ -259,8 +265,8 @@ nav{
     .navlinks::after{
         content: '';
         position: absolute;
-        left: 0;
-        bottom: 0;
+        left: 10px;
+        bottom: 7px;
         height: 2px;
         width: 0%;
         border-radius: 1em;

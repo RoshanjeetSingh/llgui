@@ -8,18 +8,22 @@
     display: flex;
     justify-content: space-around;
     padding: 2vh 3vw;
-    background-color: #FBDB93;
+    background-image: url(src/assets/village.png);
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
     margin-top: 4px;
     border-radius: 0px 0px 10px 10px;
     
 }
 .wlcm p{
+    color: #FFFFFF;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 .wlcm h2{
-    color: rgb(188, 207, 224);
-    background-color: rgb(44, 83, 83);
+    color: #FFFFFF;
+    background-color: #075aad;
     cursor: pointer;
     overflow: hidden;
 }
@@ -28,7 +32,8 @@
     justify-content: center;
     text-align: center;
     margin-top: 10vh;
-    line-height: 2em
+    line-height: 2em;
+    color: #1F3B4D;
 }
 
 .wlcmcontainer2nd h2{
@@ -38,5 +43,8 @@
 }
 .wlcmcontainer2nd h2 strong{
     color: white;
-    background-color: rgb(216, 99, 90);
+    background-color: #E63946;
+}
+.mainContent{
+    background-color: #D9E3DC;
 }

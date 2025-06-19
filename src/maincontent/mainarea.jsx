@@ -2,7 +2,7 @@ import './mainarea.css'
 import { GiPiercedHeart } from "react-icons/gi";
 import { LuTreePalm } from "react-icons/lu";
 import { Outlet } from 'react-router-dom';
-
+import Weather from '../weatherinfo/weather.jsx'
 
 import Sidebar from '../maincontent/sidebar/sidebar.jsx'
 
@@ -20,11 +20,11 @@ function HomePage(){
        <div className='wlcmcontainer2nd'>  
 
         <h2>Welcome to <strong>Lalgarh Jattan</strong> <GiPiercedHeart /> Lovely People, <LuTreePalm/>Beautiful Village.</h2>
-    
+        <Weather/>
        </div>
-       <div id='sidebar' style={{display:`flex`,}}>
+       <div className='mainContent' id='sidebar' style={{display:`flex`,}}>
 
-<Sidebar/>
+    <Sidebar/>
     <div style={{ marginLeft: '20px', flex: 1 }}>     
     <Outlet />
     </div>

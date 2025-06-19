@@ -2,10 +2,11 @@
 fieldset{
     margin-top: 30px;
 }
-h1{
+.sideg1{
     
     display: inline;
-    background-color: rgb(151, 151, 131);
+    color: #333333;
+    background-color: #E8ECEF;
     border: none;
     padding: 0px 5px;
     border-radius: 5px;
