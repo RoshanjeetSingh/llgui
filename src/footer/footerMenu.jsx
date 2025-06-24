@@ -21,8 +21,8 @@ function FooterMenu() {
             <ul>
                 <li><h3>FOLLOW US</h3></li>
                 <li><a href="https://www.facebook.com/lalgarhjattan" target="_blank" rel="noopener noreferrer"><CiFacebook/></a></li>
-                <li><a href="https://twitter.com/lalgarhjattan" target="_blank" rel="noopener noreferrer"><FaXTwitter/></a></li>
-                <li><a href="https://instagram.com/lalgarhjattan" target="_blank" rel="noopener noreferrer"><CiInstagram/></a></li>
+                <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaXTwitter/></a></li>
+                <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><CiInstagram/></a></li>
             </ul>
         </div>
     );

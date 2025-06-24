@@ -11,7 +11,7 @@ function WebHeader(){
     return(
         <div>
             <header>
-      <span ><img className="llglogo" src="src/assets/llgfort.png" alt=""/></span>
+      <span ><img className="llglogo" src="src/assets/llgfortblack.png" alt=""/></span>
 
       <div className="sharebtnscontainor">
         <ul className="sharebtns">
@@ -31,11 +31,11 @@ function WebHeader(){
       <nav>
         <ul className="navbar">
             <li className="navbtn"> <NavLink  className={"lin"} to={'/'}>home</NavLink>                  </li>
-            <li className="navbtn"> <NavLink  className={"lin"} to={'/villages'} >village map</NavLink>  </li>
-            <li className="navbtn">  <NavLink className={"lin"} to={'/guestbook'}>guest book </NavLink></li>
-            <li className="navbtn"> <NavLink  className={"lin"} to={'/gallary'}> gallary     </NavLink></li>
-            <li className="navbtn">  <NavLink className={"lin"} to={'/videos'}>videos        </NavLink> </li>
-            <li className="navbtn">  <NavLink className={"lin"} to={'/news'}>submit news     </NavLink></li>
+            <li className="navbtn"> <NavLink  className={"lin"} to={'/villages'} style={{backgroundColor:'transparent'}}>village map</NavLink>  </li>
+            <li className="navbtn">  <NavLink className={"lin"} to={'/guestbook'} style={{backgroundColor:'transparent'}}>guest book </NavLink></li>
+            <li className="navbtn"> <NavLink  className={"lin"} to={'/gallary'} style={{backgroundColor:'transparent'}}> gallary     </NavLink></li>
+            <li className="navbtn">  <NavLink className={"lin"} to={'/videos'} style={{backgroundColor:'transparent'}}>videos        </NavLink> </li>
+            <li className="navbtn">  <NavLink className={"lin"} to={'/news'} style={{backgroundColor:'transparent'}}>submit news     </NavLink></li>
         </ul>
       </nav>
     <ResponciveNav />

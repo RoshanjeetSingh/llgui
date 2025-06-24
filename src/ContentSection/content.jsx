@@ -20,7 +20,7 @@ const Content = () => {
        className="responsive-image"
       />
       <Content3
-       title="environment"
+       title="Environment"
        content="The village is surrounded by beautiful landscapes, with a focus on sustainable practices and environmental conservation."
        imageUrl="src/assets/environment.png"
        reverse={false}

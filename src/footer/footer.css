@@ -3,12 +3,18 @@
     align-items: center;
     justify-content: left;
     color: white;
-    background-color: hsl(0, 5%, 12%);
+    background-color: #201d1d;
+    overflow: hidden;
+    font-family: sans-serif;
 }
 ul{
     list-style-type: none;
-    border-right: 1px solid rgb(99, 96, 96);
+}
+.footer-menu ul{
+    font-family: sans-serif;
+    border-right: 1px solid #ffffff;
     padding: 0 1em;
+
 }
 #bticon{
     color: rgb(41, 135, 218);
@@ -25,7 +31,7 @@ ul{
     align-items: start;
     padding: 1% 5%;
     color: rgb(255, 255, 255);
-    background-color: #1F3B4D;
+    background-color: #192024;
 }
 .footer-menu h3{
     padding-bottom: 0.5rem;
@@ -35,4 +41,9 @@ ul{
     line-height: 20px;
     text-transform: none;
     text-decoration: none;
+}
+@media (max-width:550px) {
+    .footer-menu{
+        gap: 0.4em;
+    }
 }
