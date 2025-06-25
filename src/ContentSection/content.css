@@ -24,7 +24,6 @@
   .content-image img {
   
     width: 10em;                         
-    max-width: auto;         
     object-fit: cover;       
     border-radius: 9px; 
     padding: 3px 0px 0px 0px;
@@ -56,3 +55,8 @@
     border-radius: 8px;      
   }
   
+  @media (max-width:550px){
+    .content-image img{
+      width: 100%;
+    }
+  }
