@@ -9,7 +9,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 2vh 3vw;
-    background-image: url(src/assets/village.png);
+    background-image: url(../src/assets/village.png);
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat;

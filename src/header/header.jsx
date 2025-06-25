@@ -11,7 +11,7 @@ function WebHeader(){
     return(
         <div>
             <header>
-      <span ><img className="llglogo" src="src/assets/llgfortblack.png" alt=""/></span>
+      <span ><img className="llglogo" src="../src/assets/llgfortblack.png" alt=""/></span>
 
       <div className="sharebtnscontainor">
         <ul className="sharebtns">

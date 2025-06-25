@@ -8,21 +8,21 @@ const Content = () => {
       <Content1 
         title="Our Village Culture"
         content="Lalgarh Jattan has a rich cultural heritage full of traditions, music, and vibrant festivals."
-        imageUrl="src/assets/culture.png"
+        imageUrl="../src/assets/culture.png"
         reverse={false}
         className="responsive-image"
       />
       <Content2
        title="Spacial events"
        content="Lalgarh Jattan hosts various events throughout the year, showcasing local art, music, and cuisine."
-       imageUrl="src/assets/event.png"
+       imageUrl="../src/assets/event.png"
        reverse={!false}
        className="responsive-image"
       />
       <Content3
        title="Environment"
        content="The village is surrounded by beautiful landscapes, with a focus on sustainable practices and environmental conservation."
-       imageUrl="src/assets/environment.png"
+       imageUrl="../src/assets/environment.png"
        reverse={false}
        className="responsive-image"
       />
